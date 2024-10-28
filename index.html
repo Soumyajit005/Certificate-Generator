@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Generator</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Certificate Generator</h2>
+    <div id="jj">
+        <form id="certificateForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+        
+            <label for="department">Date:</label>
+            <input type="text" id="department" name="department" required><br><br>
+        
+            <label for="college">Signature:</label>
+            <input type="text" id="college" name="college" required><br><br>
+        
+            <button type="button" onclick="generateCertificate()">Generate Certificate</button>
+        </form>
+    </div>
+    <canvas id="certificateCanvas" width="800" height="600" style="display:none;"></canvas>
+</body>
+</html>
