@@ -7,7 +7,7 @@ function generateCertificate() {
     const ctx = canvas.getContext("2d");
     
     const image = new Image();
-    image.src = "certificate_template.jpg"; // Use a pre-designed certificate image here
+    image.src = "Certificate_template.jpg"; // Use a pre-designed certificate image here
     image.onload = function() {
         // Draw the template image on the canvas
         ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
